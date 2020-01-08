@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75DA71AE23C636E400E7292C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71AD23C636E400E7292C /* AppDelegate.swift */; };
+		75DA71B023C636E400E7292C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71AF23C636E400E7292C /* SceneDelegate.swift */; };
+		75DA71B223C636E400E7292C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71B123C636E400E7292C /* ViewController.swift */; };
+		75DA71B523C636E400E7292C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DA71B323C636E400E7292C /* Main.storyboard */; };
+		75DA71B823C636E400E7292C /* ReplicaBRQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71B623C636E400E7292C /* ReplicaBRQ.xcdatamodeld */; };
+		75DA71BA23C636E600E7292C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DA71B923C636E600E7292C /* Assets.xcassets */; };
+		75DA71BD23C636E600E7292C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DA71BB23C636E600E7292C /* LaunchScreen.storyboard */; };
+		75DA71C823C636E600E7292C /* ReplicaBRQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71C723C636E600E7292C /* ReplicaBRQTests.swift */; };
+		75DA71D323C636E600E7292C /* ReplicaBRQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71D223C636E600E7292C /* ReplicaBRQUITests.swift */; };
+		75DA71E123C638D400E7292C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71E023C638D400E7292C /* LoginViewController.swift */; };
+		75DA71E323C65C7200E7292C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA71E223C65C7200E7292C /* RegisterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75DA71C423C636E600E7292C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DA71A223C636E400E7292C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DA71A923C636E400E7292C;
+			remoteInfo = ReplicaBRQ;
+		};
+		75DA71CF23C636E600E7292C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DA71A223C636E400E7292C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DA71A923C636E400E7292C;
+			remoteInfo = ReplicaBRQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75DA71AA23C636E400E7292C /* ReplicaBRQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplicaBRQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DA71AD23C636E400E7292C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75DA71AF23C636E400E7292C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75DA71B123C636E400E7292C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75DA71B423C636E400E7292C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75DA71B723C636E400E7292C /* ReplicaBRQ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReplicaBRQ.xcdatamodel; sourceTree = "<group>"; };
+		75DA71B923C636E600E7292C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75DA71BC23C636E600E7292C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75DA71BE23C636E600E7292C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DA71C323C636E600E7292C /* ReplicaBRQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicaBRQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DA71C723C636E600E7292C /* ReplicaBRQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicaBRQTests.swift; sourceTree = "<group>"; };
+		75DA71C923C636E600E7292C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DA71CE23C636E600E7292C /* ReplicaBRQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicaBRQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DA71D223C636E600E7292C /* ReplicaBRQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicaBRQUITests.swift; sourceTree = "<group>"; };
+		75DA71D423C636E600E7292C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DA71E023C638D400E7292C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		75DA71E223C65C7200E7292C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DA71A723C636E400E7292C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DA71C023C636E600E7292C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DA71CB23C636E600E7292C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75DA71A123C636E400E7292C = {
+			isa = PBXGroup;
+			children = (
+				75DA71AC23C636E400E7292C /* ReplicaBRQ */,
+				75DA71C623C636E600E7292C /* ReplicaBRQTests */,
+				75DA71D123C636E600E7292C /* ReplicaBRQUITests */,
+				75DA71AB23C636E400E7292C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75DA71AB23C636E400E7292C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75DA71AA23C636E400E7292C /* ReplicaBRQ.app */,
+				75DA71C323C636E600E7292C /* ReplicaBRQTests.xctest */,
+				75DA71CE23C636E600E7292C /* ReplicaBRQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75DA71AC23C636E400E7292C /* ReplicaBRQ */ = {
+			isa = PBXGroup;
+			children = (
+				75DA71AD23C636E400E7292C /* AppDelegate.swift */,
+				75DA71AF23C636E400E7292C /* SceneDelegate.swift */,
+				75DA71B123C636E400E7292C /* ViewController.swift */,
+				75DA71E023C638D400E7292C /* LoginViewController.swift */,
+				75DA71E223C65C7200E7292C /* RegisterViewController.swift */,
+				75DA71B323C636E400E7292C /* Main.storyboard */,
+				75DA71B923C636E600E7292C /* Assets.xcassets */,
+				75DA71BB23C636E600E7292C /* LaunchScreen.storyboard */,
+				75DA71BE23C636E600E7292C /* Info.plist */,
+				75DA71B623C636E400E7292C /* ReplicaBRQ.xcdatamodeld */,
+			);
+			path = ReplicaBRQ;
+			sourceTree = "<group>";
+		};
+		75DA71C623C636E600E7292C /* ReplicaBRQTests */ = {
+			isa = PBXGroup;
+			children = (
+				75DA71C723C636E600E7292C /* ReplicaBRQTests.swift */,
+				75DA71C923C636E600E7292C /* Info.plist */,
+			);
+			path = ReplicaBRQTests;
+			sourceTree = "<group>";
+		};
+		75DA71D123C636E600E7292C /* ReplicaBRQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75DA71D223C636E600E7292C /* ReplicaBRQUITests.swift */,
+				75DA71D423C636E600E7292C /* Info.plist */,
+			);
+			path = ReplicaBRQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DA71A923C636E400E7292C /* ReplicaBRQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DA71D723C636E600E7292C /* Build configuration list for PBXNativeTarget "ReplicaBRQ" */;
+			buildPhases = (
+				75DA71A623C636E400E7292C /* Sources */,
+				75DA71A723C636E400E7292C /* Frameworks */,
+				75DA71A823C636E400E7292C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplicaBRQ;
+			productName = ReplicaBRQ;
+			productReference = 75DA71AA23C636E400E7292C /* ReplicaBRQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75DA71C223C636E600E7292C /* ReplicaBRQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DA71DA23C636E600E7292C /* Build configuration list for PBXNativeTarget "ReplicaBRQTests" */;
+			buildPhases = (
+				75DA71BF23C636E600E7292C /* Sources */,
+				75DA71C023C636E600E7292C /* Frameworks */,
+				75DA71C123C636E600E7292C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DA71C523C636E600E7292C /* PBXTargetDependency */,
+			);
+			name = ReplicaBRQTests;
+			productName = ReplicaBRQTests;
+			productReference = 75DA71C323C636E600E7292C /* ReplicaBRQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75DA71CD23C636E600E7292C /* ReplicaBRQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DA71DD23C636E600E7292C /* Build configuration list for PBXNativeTarget "ReplicaBRQUITests" */;
+			buildPhases = (
+				75DA71CA23C636E600E7292C /* Sources */,
+				75DA71CB23C636E600E7292C /* Frameworks */,
+				75DA71CC23C636E600E7292C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DA71D023C636E600E7292C /* PBXTargetDependency */,
+			);
+			name = ReplicaBRQUITests;
+			productName = ReplicaBRQUITests;
+			productReference = 75DA71CE23C636E600E7292C /* ReplicaBRQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75DA71A223C636E400E7292C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Catia Miranda de Souza";
+				TargetAttributes = {
+					75DA71A923C636E400E7292C = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					75DA71C223C636E600E7292C = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 75DA71A923C636E400E7292C;
+					};
+					75DA71CD23C636E600E7292C = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 75DA71A923C636E400E7292C;
+					};
+				};
+			};
+			buildConfigurationList = 75DA71A523C636E400E7292C /* Build configuration list for PBXProject "ReplicaBRQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75DA71A123C636E400E7292C;
+			productRefGroup = 75DA71AB23C636E400E7292C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DA71A923C636E400E7292C /* ReplicaBRQ */,
+				75DA71C223C636E600E7292C /* ReplicaBRQTests */,
+				75DA71CD23C636E600E7292C /* ReplicaBRQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75DA71A823C636E400E7292C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DA71BD23C636E600E7292C /* LaunchScreen.storyboard in Resources */,
+				75DA71BA23C636E600E7292C /* Assets.xcassets in Resources */,
+				75DA71B523C636E400E7292C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DA71C123C636E600E7292C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DA71CC23C636E600E7292C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DA71A623C636E400E7292C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DA71B823C636E400E7292C /* ReplicaBRQ.xcdatamodeld in Sources */,
+				75DA71B223C636E400E7292C /* ViewController.swift in Sources */,
+				75DA71AE23C636E400E7292C /* AppDelegate.swift in Sources */,
+				75DA71E323C65C7200E7292C /* RegisterViewController.swift in Sources */,
+				75DA71E123C638D400E7292C /* LoginViewController.swift in Sources */,
+				75DA71B023C636E400E7292C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DA71BF23C636E600E7292C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DA71C823C636E600E7292C /* ReplicaBRQTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DA71CA23C636E600E7292C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DA71D323C636E600E7292C /* ReplicaBRQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75DA71C523C636E600E7292C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DA71A923C636E400E7292C /* ReplicaBRQ */;
+			targetProxy = 75DA71C423C636E600E7292C /* PBXContainerItemProxy */;
+		};
+		75DA71D023C636E600E7292C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DA71A923C636E400E7292C /* ReplicaBRQ */;
+			targetProxy = 75DA71CF23C636E600E7292C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75DA71B323C636E400E7292C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75DA71B423C636E400E7292C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75DA71BB23C636E600E7292C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75DA71BC23C636E600E7292C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75DA71D523C636E600E7292C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75DA71D623C636E600E7292C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75DA71D823C636E600E7292C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = ReplicaBRQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catiasouza.ReplicaBRQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75DA71D923C636E600E7292C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = ReplicaBRQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catiasouza.ReplicaBRQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75DA71DB23C636E600E7292C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = ReplicaBRQTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catiasouza.ReplicaBRQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplicaBRQ.app/ReplicaBRQ";
+			};
+			name = Debug;
+		};
+		75DA71DC23C636E600E7292C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = ReplicaBRQTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catiasouza.ReplicaBRQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplicaBRQ.app/ReplicaBRQ";
+			};
+			name = Release;
+		};
+		75DA71DE23C636E600E7292C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = ReplicaBRQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catiasouza.ReplicaBRQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReplicaBRQ;
+			};
+			name = Debug;
+		};
+		75DA71DF23C636E600E7292C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = ReplicaBRQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catiasouza.ReplicaBRQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReplicaBRQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75DA71A523C636E400E7292C /* Build configuration list for PBXProject "ReplicaBRQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DA71D523C636E600E7292C /* Debug */,
+				75DA71D623C636E600E7292C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DA71D723C636E600E7292C /* Build configuration list for PBXNativeTarget "ReplicaBRQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DA71D823C636E600E7292C /* Debug */,
+				75DA71D923C636E600E7292C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DA71DA23C636E600E7292C /* Build configuration list for PBXNativeTarget "ReplicaBRQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DA71DB23C636E600E7292C /* Debug */,
+				75DA71DC23C636E600E7292C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DA71DD23C636E600E7292C /* Build configuration list for PBXNativeTarget "ReplicaBRQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DA71DE23C636E600E7292C /* Debug */,
+				75DA71DF23C636E600E7292C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75DA71B623C636E400E7292C /* ReplicaBRQ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75DA71B723C636E400E7292C /* ReplicaBRQ.xcdatamodel */,
+			);
+			currentVersion = 75DA71B723C636E400E7292C /* ReplicaBRQ.xcdatamodel */;
+			path = ReplicaBRQ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75DA71A223C636E400E7292C /* Project object */;
+}
